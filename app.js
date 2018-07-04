@@ -94,7 +94,9 @@ chartGroup.append("text")
     .attr("transform", `translate(${width /2}, ${height + margin.top +30})`)
     .attr("class", "axisText")
     .text("Uninsured %");
-
+    
+// add tooltip
+    
 var toolTip = d3.select("body")
     .append("div")
     .attr("class", "tooltip");
